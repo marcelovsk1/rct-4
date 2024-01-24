@@ -12,9 +12,9 @@ import Campus from '../pages/campus'
 import Wallet from '../pages/wallet'
 
 const Routers = () => {
-  return (
-    <div>Routers</div>
-  )
+  return <Routes>
+    <Route path='/' element={<Navigate to ='/home'/>} />
+  </Routes>
 }
 
 export default Routers

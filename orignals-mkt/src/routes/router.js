@@ -15,12 +15,12 @@ const Routers = () => {
   return <Routes>
     <Route path='/' element={<Navigate to ='/home'/>} />
     <Route path='/home' element={<Home />} />
-    <Route path='/home' element={<Home />} />
-    <Route path='/home' element={<Home />} />
-    <Route path='/home' element={<Home />} />
-    <Route path='/home' element={<Home />} />
-    <Route path='/home' element={<Home />} />
-    <Route path='/home' element={<Home />} />
+    <Route path='/market' element={<Market />} />
+    <Route path='/gazelle' element={<Gazelle />} />
+    <Route path='/spezial' element={<Spezial />} />
+    <Route path='/samba' element={<Samba />} />
+    <Route path='/campus' element={<Campus />} />
+    <Route path='/wallet' element={<Wallet />} />
   </Routes>
 }
 

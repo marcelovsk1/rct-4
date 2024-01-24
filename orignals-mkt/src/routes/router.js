@@ -14,6 +14,13 @@ import Wallet from '../pages/wallet'
 const Routers = () => {
   return <Routes>
     <Route path='/' element={<Navigate to ='/home'/>} />
+    <Route path='/home' element={<Home />} />
+    <Route path='/home' element={<Home />} />
+    <Route path='/home' element={<Home />} />
+    <Route path='/home' element={<Home />} />
+    <Route path='/home' element={<Home />} />
+    <Route path='/home' element={<Home />} />
+    <Route path='/home' element={<Home />} />
   </Routes>
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 
-const Campus = () => {
-  return <div>Campus</div>;
+const Samba = () => {
+  return <div>Samba</div>;
 };
 
-export default Campus;
+export default Samba;

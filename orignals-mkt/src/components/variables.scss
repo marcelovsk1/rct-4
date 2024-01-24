@@ -1,0 +1,18 @@
+$color-primary: #2f72c9;
+$color-primary-2: rgb(236, 229, 223);
+$color-primary-3: #252525;
+
+// :HOVER
+@mixin hover-styles {
+  background-color: $color-primary-2;
+  color: $color-primary;
+  transition: background-color 0.8s ease, color 0.8s ease;
+  animation: appear 400ms linear 100ms forwards;
+}
+
+@mixin hover-styles-1 {
+  background-color: $color-primary;
+  color: $color-primary-2;
+  transition: background-color 0.8s ease, color 0.8s ease;
+  animation: appear 400ms linear 100ms forwards;
+}
